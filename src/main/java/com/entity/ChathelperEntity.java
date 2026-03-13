@@ -1,0 +1,102 @@
+package com.entity;
+
+import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.annotations.TableName;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import org.apache.commons.beanutils.BeanUtils;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import java.io.Serializable;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Date;
+
+
+/**
+ * 聊天助手表
+ * 数据库通用操作实体类（普通增删改查）
+ *
+ * @author
+ * @email
+ * @date 2023-02-08 11:44:37
+ */
+@TableName("chathelper")
+public class ChathelperEntity<T> implements Serializable {
+    private static final long serialVersionUID = 1L;
+    /**
+     * 主键id
+     */
+    @TableId
+    private Long id;
+    /**
+     * 提问
+     */
+
+    private String ask;
+    /**
+     * 回复
+     */
+
+    private String reply;
+    @JsonFormat(locale = "zh", timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat
+    private Date addtime;
+
+    public ChathelperEntity() {
+
+    }
+
+
+    public ChathelperEntity(T t) {
+        try {
+            BeanUtils.copyProperties(this, t);
+        } catch (IllegalAccessException | InvocationTargetException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
+    public Date getAddtime() {
+        return addtime;
+    }
+
+    public void setAddtime(Date addtime) {
+        this.addtime = addtime;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    /**
+     * 获取：提问
+     */
+    public String getAsk() {
+        return ask;
+    }
+
+    /**
+     * 设置：提问
+     */
+    public void setAsk(String ask) {
+        this.ask = ask;
+    }
+
+    /**
+     * 获取：回复
+     */
+    public String getReply() {
+        return reply;
+    }
+
+    /**
+     * 设置：回复
+     */
+    public void setReply(String reply) {
+        this.reply = reply;
+    }
+
+}
