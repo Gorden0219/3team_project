@@ -9,13 +9,13 @@ import java.lang.reflect.InvocationTargetException;
 
 
 /**
- * 关于我们
+ * 软件介绍
  * 后端返回视图实体辅助类
  * （通常后端关联的表或者自定义的字段需要返回使用）
  *
  * @author
  * @email
- * @date 2023-02-08 11:44:37
+ * @date 2026-03-03 11:44:37
  */
 @TableName("systemintro")
 public class SystemintroView extends SystemintroEntity implements Serializable {

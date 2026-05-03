@@ -70,7 +70,7 @@ export function isAuth(tableName, key) {
             }, {
                 "appFrontIcon": "cuIcon-news",
                 "buttons": ["查看", "修改"],
-                "menu": "关于我们",
+                "menu": "软件介绍",
                 "tableName": "aboutus"
             }, {
                 "appFrontIcon": "cuIcon-news",

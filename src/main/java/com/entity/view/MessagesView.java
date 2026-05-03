@@ -15,7 +15,7 @@ import java.lang.reflect.InvocationTargetException;
  *
  * @author
  * @email
- * @date 2023-02-08 11:44:38
+ * @date 2026-03-03 11:44:38
  */
 @TableName("messages")
 public class MessagesView extends MessagesEntity implements Serializable {

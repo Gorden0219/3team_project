@@ -12,12 +12,12 @@ import java.util.Date;
 
 
 /**
- * 关于我们
+ * 软件介绍
  * 数据库通用操作实体类（普通增删改查）
  *
  * @author
  * @email
- * @date 2023-02-08 11:44:37
+ * @date 2026-03-03 11:44:37
  */
 @TableName("systemintro")
 public class SystemintroEntity<T> implements Serializable {

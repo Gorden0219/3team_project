@@ -94,7 +94,7 @@ export default {
       baseUrl: '',
       breadcrumbItem: [
         {
-          name: '关于我们'
+          name: '软件介绍'
         }
       ],
       formSearch: {

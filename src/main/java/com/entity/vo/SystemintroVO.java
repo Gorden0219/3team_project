@@ -4,13 +4,13 @@ import java.io.Serializable;
 
 
 /**
- * 关于我们
+ * 软件介绍
  * 手机端接口返回实体辅助类
  * （主要作用去除一些不必要的字段）
  *
  * @author
  * @email
- * @date 2023-02-08 11:44:37
+ * @date 2026-03-03 11:44:37
  */
 public class SystemintroVO implements Serializable {
     private static final long serialVersionUID = 1L;

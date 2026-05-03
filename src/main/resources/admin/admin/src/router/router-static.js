@@ -66,7 +66,7 @@ const routes = [{
         }
         , {
             path: '/aboutus',
-            name: '关于我们',
+            name: '软件介绍',
             component: aboutus
         }
         , {

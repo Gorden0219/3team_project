@@ -4,7 +4,7 @@
       class="home-preview">
 
 
-    <!-- 关于我们 -->
+    <!-- 软件介绍 -->
     <div
         :style='{"padding":"0px","margin":"20px 0 0 0","borderColor":"#dbd9f4","borderRadius":"8px","background":"#fff","borderWidth":"2px 1px 1px 1px","display":"block","width":"30%","position":"relative","borderStyle":"solid","height":"500px","order":"2"}'>
       <div

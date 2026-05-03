@@ -15,7 +15,7 @@ import java.lang.reflect.InvocationTargetException;
  *
  * @author
  * @email
- * @date 2023-02-08 11:44:37
+ * @date 2026-03-03 11:44:37
  */
 @TableName("caipinfenlei")
 public class CaipinfenleiView extends CaipinfenleiEntity implements Serializable {
